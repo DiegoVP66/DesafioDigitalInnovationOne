@@ -25,7 +25,7 @@ public class Program {
 		Collections.sort(list);
 		list.stream().filter(x -> x % 2 == 0).map(x -> x).forEach(System.out::println);
 		
-		// Ordena em ordem decrescente e filtra os números pares
+		// Ordena em ordem crescente e filtra os números impares
 		Collections.reverse(list);
 		list.stream().filter(x -> x % 2 != 0).map(x -> x).forEach(System.out::println);
 
